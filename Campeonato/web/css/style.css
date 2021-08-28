@@ -1,0 +1,104 @@
+/* CSS Document */
+body{
+    background: #EEE url("../imagenes/fondo.jpg") repeat-x;
+    margin:0;
+    padding:0;
+    margin:0 auto;
+}
+
+p {
+    line-height: 17px;
+    margin: 0 0 1em;
+    
+}
+
+label {
+    font-size: 14px;
+    font-family:"Arial", Times, sans-serif;
+}
+  
+#contenedor {
+    background-image: url("../imagenes/inicio.png");
+    width: 910px;
+    height: 375px;
+    margin-left: 50px;
+    margin-top: 50px;    
+    border: solid #cccccc;
+}
+
+.espacio{
+    height:8px;
+}
+
+.izq{
+	height: 8px;
+	position: absolute;
+}
+
+#inicio {
+    width: 410px;
+    height: 255px;
+    margin-left: 460px;
+    margin-top: 90px;
+    background-color: #f2f2f2;
+    border: 2px solid #ccc;
+   
+}
+  
+select{
+    width: 275px;
+    height: 24px;
+    font-size: 14px;
+    color: #000000;
+    margin-left: 65px;
+}
+
+#boton{
+    background-image: url("../imagenes/boton1.png");
+    width: 130px;
+    height: 26px;    
+    margin-left: 210px;
+    font-family:"Arial", Times, sans-serif;
+    font-size: 14px;
+}
+
+#boton:hover{
+    color: #262424;
+    font-size: 13px;
+}
+
+.campo {
+    width: 275px;
+    height: 20px; 
+    font-size: 14px;
+    color: #000000;
+    margin-left: 65px;
+    
+}
+
+.c {
+	width: 275px;
+	height: 20px;
+	font-size: 14px;
+	color: #000000;   
+}
+.texto{
+    font-weight: bold;
+    margin-left: 65px;
+}
+
+.t{
+    font-weight: bold;
+	margin-left: 0px;
+}
+#error{
+    font-size: 14px;
+    font-family:"Arial", Times, sans-serif;
+    color: red;
+    text-align: center;
+}
+
+
+
+
+
